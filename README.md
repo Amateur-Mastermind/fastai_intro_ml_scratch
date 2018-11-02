@@ -20,9 +20,15 @@ conda env create -f environment.yml
 ```
 cd ~/projects
 git clone https://github.com/Amateur-Mastermind/fastai_dl1_scratch.git
-ln -s fastai ~/src/fastai/old/fastai
+ln -s ~/src/fastai/old/fastai fastai
 cp ~/src/fastai/courses/dl1/lesson1.ipynb scratch-lesson1.ipynb
 ln 
 # copy dogscats data into scratch repo, also change the PATH variable in the notebook to point to it)
 ```
 Reason for doing this is so that I can keep the fastai repo up to date while also having my notes/fastai projects in version control.
+
+4. Activate conda env and start up Jupyter!
+```
+source activate fastai
+jupyter notebook
+```
