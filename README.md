@@ -16,7 +16,7 @@ cd fastai
 conda env create -f environment.yml
 ```
 
-3. Use this repo to track my notes/changes when going through the lesson notebooks (and perhaps for playing around with datasets in kaggle). (example for lesson1.ipynb )
+3. Use this repo to track my notes/changes when going through the lesson notebooks (and perhaps for playing around with datasets in kaggle). (example for lesson1.ipynb which might already be checked)
 ```
 cd ~/projects
 git clone https://github.com/Amateur-Mastermind/fastai_dl1_scratch.git
