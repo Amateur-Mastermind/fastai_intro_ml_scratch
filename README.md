@@ -1,11 +1,12 @@
 # fastai_dl1_scratch
 
 
-## Local Linux Setup
+### Local Linux Setup
 Reference: https://forums.fast.ai/t/fastai-v0-7-install-issues-thread/24652
 
 The way I plan on organizing it is...
-### Setup fastai conda env
+
+
 1. Install / update to latest version of `conda` and `pip` 
 
 2. Clone Repo into ~/src/ and setup a fastai conda environment
