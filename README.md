@@ -17,13 +17,12 @@ cd fastai
 conda env create -f environment.yml
 ```
 
-3. Use this (`fastai_dl1_scratch`) repo to track my notes/changes when going through the lesson notebooks (and perhaps for playing around with datasets in kaggle). (example for lesson1.ipynb which might already be checked)
+3. Use this (`fastai_intro_ml_scratch`) repo to track my notes/changes when going through the lesson notebooks (and perhaps for playing around with datasets in kaggle). (example for lesson1.ipynb which might already be checked)
 ```
 cd ~/projects
-git clone https://github.com/Amateur-Mastermind/fastai_dl1_scratch.git
+git clone https://github.com/Amateur-Mastermind/fastai_intro_ml_scratch.git
 ln -s ~/src/fastai/old/fastai fastai
-cp ~/src/fastai/courses/dl1/lesson1.ipynb scratch-lesson1.ipynb
-ln 
+cp ~/src/fastai/courses/ml1/lesson1-rf.ipynb scratch-lesson1-rf.ipynb
 # copy dogscats data into scratch repo, also change the PATH variable in the notebook to point to it)
 ```
 Reason for doing this is so that I can keep the fastai repo up to date while also having my notes/fastai projects in version control.
