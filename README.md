@@ -1,4 +1,4 @@
-# fastai_dl1_scratch
+# fastai_intro_ml_scratch
 
 
 ### Local Linux Setup
